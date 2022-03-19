@@ -9,7 +9,7 @@ This is my attempt at Tower of Hanoi. This is my first project, I am excited wit
 ![Screen Shot 2022-03-18 at 10 30 18 PM](https://user-images.githubusercontent.com/97268174/159109173-0715822b-0d41-44ea-8c19-263227fd21d6.png)
 
 ## Technology used
-HTML, CSS, JAVASCRIPT
+HTML, CSS, Javascript
 
 ## STRECH GOALS
 I do wish to update this game through out my career. There are a few upgrades I want to add into my code. For example I would want to make this code more DRY and making the website compatible with all devices. As for functional upgrades; adding the ability to select how many discs can be played with, an undo button, and overall a more friendlier look. 
