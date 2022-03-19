@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Tower of Hanoi</title>
+  </head>
+  <body>
+    <h1>Tower of Hanoi</h1>
+    <h3>Move Count:</h3>
+    <div class="moveCount">0</div>
+    <button class="resetGame" onclick="restartGame()">Reset</button>
+    <div class="minMoves"></div>
+        <div class="game">
+      <div class="pegs">
+        <div class="peg1 peg" data-value="0">
+          <div class="container">
+            <div draggable="true" class="discC disc" data-value="1" id="C"></div>
+              <div draggable="true" class="discB disc" data-value="2" id="B"></div>
+              <div draggable="true" class="discA disc" data-value="3"id="A"></div>
+            </div>
+        </div>
+        <div class="peg2 peg"></div>
+        <div class="peg3 peg"></div>
+      </div>
+    </div>
+
+      <div class="ground">_</div>
+    <div class="instructions">
+      <h1>Instruction/Rules</h1>
+      <p>Welcome to the Tower of Hanoi!</p>
+      <p>
+        The purpose of this game is to move the stack of discs from the first
+        peg to the last peg.
+      </p>
+      <p>Easy enough right? However there are some rules:</p>
+      <p>1. Only one disc can be moved at a time</p>
+      <p>2. A bigger disc cannot go ontop of a smaller disc</p>
+      <p>3. Have fun!</p>
+    </div>
+  </body>
+</html>
